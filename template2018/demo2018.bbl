@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+\catcode`\~=\active \def~{\penalty10000 \ }
+
+\bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1929}]{hubble_expansion_1929}
+{Hubble} E.,  1929, Proceedings of the National Academy of Science, 15, 168
+
+\bibitem[\protect\citeauthoryear{{Navarro}, {Frenk} \& {White}}{{Navarro} et
+  al.}{1997}]{navarro_NFW_1997}
+{Navarro} J.~F.,  {Frenk} C.~S.,    {White} S.~D.~M.,  1997, ApJ, 490, 493
+
+\bibitem[\protect\citeauthoryear{{Penzias} \& {Wilson}}{{Penzias} \&
+  {Wilson}}{1965}]{penzias_cmb_1965}
+{Penzias} A.~A.,  {Wilson} R.~W.,  1965, \apj, 142, 419
+
+\bibitem[\protect\citeauthoryear{{Riess}, {Filippenko}, {Challis},
+  {Clocchiatti}, {Diercks}, {Garnavich}, {Gilliland}, {Hogan} \& {Jha}}{{Riess}
+  et al.}{1998}]{riess_SN1a_1998}
+{Riess} A.~G.,  et al., 1998, \aj, 116, 1009
+
+\end{thebibliography}

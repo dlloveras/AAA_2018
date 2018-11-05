@@ -1,0 +1,242 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  ************************** AVISO IMPORTANTE **************************    %
+%                                                                            %
+% Éste es un documento de ayuda para los autores que deseen enviar           %
+% trabajos para su consideración en el Boletin de la Asociación Argentina    %
+% de Astronomía.                                                             %
+%                                                                            %
+% Los comentarios en este archivo contienen instrucciones sobre el formato   %
+% obligatorio del mismo que complementan los instructivos web y PDF.         %
+% Por favor léalos.                                                          %
+%                                                                            %
+% No deben borrarse los comentarios en este archivo. En caso contrario,      %
+% el sistema de recepción de manuscritos no permitirá el envío de su         %
+% contribución. No se permite el uso de \newcommand ni definiciones          %
+% particulares de cada autor.                                                %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  ************************** IMPORTANT NOTICE **************************    %
+%                                                                            %
+%  This is a help file for authors who are preparing manuscripts to be       %
+%  considered for publication in the Boletin de la Asociación Argentina      %
+%  de Astronomía.                                                            %
+%                                                                            %
+%  The comments in this file give instructions about the manuscripts'        %
+%  mandatory format that complement the instructions distributed as a PDF    %
+%  and findable in the BAAA web. Please read them.                           %
+%                                                                            %
+%  The comments in this file must not be deleted. Otherwise, your            %
+%  contribution will be rejected by the manuscript reception system.         %
+%  The use of \newcommand and author definitions are forbidden.              %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[baaa]{baaa}
+
+\usepackage[pdftex]{hyperref}
+\usepackage{subfigure}
+\usepackage{natbib}
+\usepackage{helvet,soul}
+\usepackage[font=small]{caption}
+\usepackage{float}
+\usepackage{graphicx}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+% Datos de la publicación, no deben ser cambiados.                           %
+%                                                                            %
+% Journal data, please do not change them.                                   %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\journalvol{61A}
+\journalyear{2019}
+\journaleditors{R. Gamen, N. Padilla, C. Parisi, F. Iglesias \& M. Sgr\'o}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Seleccione el idioma de su contribución: Recuerde que todos los           %
+%  componentes del documento (titulo, texto, figuras, tablas, etc.)          %
+%  deben estar en el mismo idioma.                                           %
+%                                                                            %
+%  Select the languague of your contribution: Please remember that all       %
+%  document parts (title, text, figures, tables, etc.) must be in the        %
+%  same languaje.                                                            %
+%                                                                            %
+%  0: Castellano / Spanish                                                   %
+%  1: Inglés / English                                                       %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\contriblanguage{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Seleccione el tipo de contribución solicitada:                            %
+%                                                                            %
+%  Select the requested contribution type:                                   %
+%                                                                            %
+%  1: Presentación mural / Poster                                            %
+%  2: Presentación oral / Oral contribution                                  %
+%  3: Informe invitado / Invited report                                      %
+%  4: Mesa redonda / Round table                                             %
+%  5: Presentación Premio Varsavsky / Varsavsky Prize contribution           %
+%  6: Presentación Premio Sahade / Sahade Prize contribution                 %
+%  7: Presentación Premio Sérsic / Sérsic Prize contribution                 %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\contribtype{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Seleccione el área temática de su contribución:                           %
+%                                                                            %
+%  Select the thematic area of your contribution:                            %
+%                                                                            %
+%  1 [AEC]: Astrofísica Extragaláctica y Cosmología /                        %
+%           Extragalactic Astrophysics and Cosmology                         %
+%  2 [EG]: Estructura Galáctica / Galactic Structure                         %
+%  3 [AE]: Astrofísica Estelar / Stellar Astrophysics                        %
+%  4 [SE]: Sistemás Estelares / Stellar Systems                              %
+%  5 [ICSA]: Instrumentación y Caracterización de Sitios Astronómicos /      %
+%            Instrumentation and Astronomical Site Characterization          %
+%  6 [MI]: Medio Interestelar / Interstellar Medium                          %
+%  7 [OCPAE]: Objetos Compactos y Procesos de Altas Energías /               %
+%             Compact Objetcs and High-Energy Processes                      %
+%  8 [SH]: Sol y Heliosfera / Sun and Heliosphere                            %
+%  9 [SSE]: Sistemas Solar y Extrasolares / Solar and Extrasolar Systems     %
+%  10 [HEDA]: Historia, Enseñanza y Divulgación de la Astronomía /           %
+%             History, Teaching and Spreading of Astronomy                   %
+%  11 [O]: Otros / Other Topics                                              %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thematicarea{8}
+
+\title{Multi-Wavelenght Tomography of the Solar Corona: First Steps}
+\subtitle{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Agregue un título corto para el encabezado de las páginas pares.          %
+%                                                                            %
+%  Add a short title to appear in the header of even pages.                  %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\titlerunning{Multi-Wavelenght Tomography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Lista de autores. Los nombres de los autores deben estar separados por    %
+%  comas, y deben tener el formato A.E. Autor (iniciales apellido(s);   sin  %
+%  coma entre apellido e iniciales ni espacios entre las iniciales).         %
+%                                                                            %
+%  Author list. Authors' names must be separated by commas, and stick to     %
+%  the format A.E. Author (initials Family name -neither commas between      %
+%  name and the initials nor blanks between the initials).                   %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{D.G. Lloveras\inst{1}, A.M. Vásquez\inst{1,2,3}, Enrico Landi\inst{4}, Richard A. Frazin\inst{4} }
+\authorrunning{Lloveras et al.}  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+% Por favor provea una dirección de e-mail de contacto para los lectores.    %
+%                                                                            %
+% Please provide a contact e-mail address for the readers.                   %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\contact{dlloveras@iafe.uba.ar}
+
+\institute{
+  Insituto de Atronomía y Física del Espacio (CONICET-UBA), Buenos Aires, Argentina \and
+  Departamento de Física, Facultad de Ciencias Exactas y Naturales (UBA), Buenos Aires, Argentina \and
+  Departamento de Ciencia y Tecnología (UNTREF), Buenos Aires, Argentina \and
+  Department of Climate ande Space Sciences and Engineering (CLaSP), University of Michigan, Ann Arbor, Michigan, USA.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  El resumen y el abstract son ambos obligatorios, independientemente del   %
+%  lenguaje elegido.                                                         %
+%                                                                            %
+%  The Resumen and the abstract are both mandatory, regardless of the chosen %
+%  language.                                                                 %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\resumen{Aca va el resumen en espaniol
+}
+
+\abstract{\emph{Solar rotational tomography} (SRT) is an observational technique of the solar corona that allows reconstruction of the three-dimensional (3D) distribution of some of its fundamental physical parameters at a global scale. In particular, it allows determination of the 3D distribution of the coronal electron density. Applied to white-light data, SRT density results are of an absolute nature, while applied to extreme ultraviolet (EUV) data they scale with the square root of the iron (Fe) abundance. EUV tomography is routinely applied to EUVI/STEREO and AIA/SDO data, covering the heliocentric height range 1.02 to 1.25 Rsun. That height range overlaps the field of view of the white light KCOR/HAO coronagraph, which covers the height range 1.05 to 3.0 Rsun. In this work we present first results of comparing simultaneous tomographic reconstructions of the coronal electron density based on the aforementioned instruments. We study the distribution of Fe abundance in both magnetically open and closed field structures. Our effort aims at helping to determine the absolute value of the First Ionization Potential (FIP) bias, discriminating whether the FIP effect consists of an enhancement of low-FIP elements, a depletion of high-FIP elements, or a combination of both.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Seleccione las palabras clave que describen su contribución. Las mismas   %
+%  son obligatorias, y deben tomarse de la lista de la American Astronomical %
+%  Society (AAS), que se encuentra en la página web indicada abajo.          %
+%                                                                            %
+%  Select the keywords that describe your contribution. They are mandatory,  %
+%  and must be taken from the list of the American Astronomical Society      %
+%  (AAS), which is available at the webpage quoted below.                    %
+%                                                                            %
+%  https://aas.org/authors/astronomical-subject-keywords-update-august-2013  %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\keywords{Sun: corona -- Sun: activity -- Sun: UV radiation -- Sun: magnetic fields}
+
+\maketitle
+
+\section{Introduction}
+\label{intro}
+
+
+Un estudio en radiancia de luz blanca de \cite{awsom}% reportó diferencias sistemáticas durante los último dos mínimos utilizando datos de Large Angle and Spectrometric Coronograph (LASCO-C2) a bordo del SOlar and Heliospheric Observatory (SOHO). Un estudio comparativo de la estructura tri-dimensional (3D) de la corona solar con tomografía en extremo ultravioleta (EUV) fue realizada por \citet{lloveras_2017} donde analizaron rotaciones representativas de los últimos dos mínimos solares y reportaron diferencias estadísticas. En el presente trabajo se pretende extender el análisis de \citet{lloveras_2017} a uno preliminar considerando una rotación reciente cercana al mínimo. Específicamente analizamos CR-1915 (octubre 1996) con datos del Extreme ultraviolet Imaging Telescope (EIT) a bordo de SOHO y CR-2081 (marzo 2009) con datos del Extreme UltraViolet Imager (EUVI) a bordo del Solar TErrestrial RElations Observatory (STEREO) (mismas rotaciones que \citet{lloveras_2017}), y extendimos el análisis a la rotación CR-2192 (julio 2017) con datos del Atmospheric Imaging Assembly (AIA) a bordo del Solar Dynamics Observatory (SDO).
+
+\section{Method}
+
+Utilizando una serie temporal de imágenes EUV que cubren una rotación solar completa, la técnica DEMT permite reconstruir la distribución 3D de la emisividad en cada banda del telescopio EUV. Los valores de emisividad se obtienen en una malla esférica que cubre alturas de 1.0 a 1.25 R$_\odot$ con celdas de tamaño 0.01 R$_\odot$ en dirección radial y $2^\circ$ en direcciones angulares.
+
+%\begin{figure}
+%  \centering
+%  \includegraphics[width=0.4\textwidth]{qkl_aia_euvi_test_2.pdf}%\\
+%  \caption{Respuestas térmicas normalizadas de los tres filtros de EIT/SOHO (líneas punteada), EUVI/STEREO (rayada) y AIA/SDO (sólida).}
+%  \label{fig_00}
+%\end{figure}
+
+
+\section{Results}
+
+
+
+\section{Conclusions and future efforts}
+\begin{itemize}
+\item 
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+%  Por favor no modifique las líneas de la bibliografía, salvo el nombre     %
+%  el archivo de Bibtex con la lista de citas (sin la extensión .BIB)        %
+%                                                                            %
+%  Please do not modify the following lines, except the name of the Bibtex   %
+%  file (whithout the .BIB extension)                                        %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\bibliographystyle{baaa}
+\small
+\bibliography{BAAA60_Diego_Lloveras}
+ 
+\end{document}

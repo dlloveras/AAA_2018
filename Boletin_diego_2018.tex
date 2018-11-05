@@ -46,6 +46,7 @@
 \usepackage{float}
 \usepackage{graphicx}
 
+\input{Definiciones.coloquio}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -248,7 +249,20 @@ Utilizando una serie temporal de imágenes EUV que cubren una rotación solar co
 
 \section{Conclusions and future efforts}
 \begin{itemize}
-\item 
+ \item  $\Eeuv \propto \AvgNE2 = f\,\AvgNe^2$, where \azul{filling factor} is defined as $f\equiv\AvgNE2 / \AvgNe^2$
+\salto
+\item  $\Ewl \propto \AvgNe$
+\salto
+\item  Then: $\AvgNe_{\rm{WL}} / \AvgNe_{\rm{EUV}} \propto \sqrt{f}$
+\salto
+\item  If differences in the results are solely attributed to filling factor:\\
+  $f\sim 2$ in subpolar open region, and $f\sim 4$ in quiet sun closed region.
+\salto
+\item  Note that: $\SigmaNe^2 \equiv \rm{Var}N_e = \AvgNE2 - \AvgNe^2 = \AvgNe^2 \, (f-1)$
+\salto
+\item  So that: $\SigmaNe / \AvgNe = \sqrt{f-1}$.
+\salto
+\item  With this interpretation, where $f$ is larger (quiet sun closed region) the electron density probability distribution has larger variance.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                            %

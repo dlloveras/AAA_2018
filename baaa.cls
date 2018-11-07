@@ -12,7 +12,7 @@
 %=============================================================================
 
 \NeedsTeXFormat{LaTeX2e}[2011/06/27]
-\ProvidesClass{aaa2014}[2014/05/15 LaTeX document class for AAA publications, v1.0]
+\ProvidesClass{baaa}[2014/05/15 LaTeX document class for AAA publications, v1.0]
 
 % EXTERNAL PACKAGES
 %=============================================================================

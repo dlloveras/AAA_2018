@@ -1,45 +1,8 @@
 % ----------------------------------------------------------------------------------
 %
-% LaTeX 2e document class for publications of the Asociaci贸n Argentina de
-% Astronom铆a 
+% LaTeX 2e document class for publications of the Asociaci贸n Argentina de Astronom铆a
 %
 % v2.1, 28.may.2015
-%
-% v2.2, 04/03/2016 (D. Carpintero):
-%   added use of spanish or english hyphenation according to \contriblanguage
-%   commented out the redefinition of \footnotelayout
-%   added abbrev. of Celestial Mechanics and Dynamical Astronomy
-%   changed abbrev. of the Bolet韓 AAA from baas (?) to baaa
-% v2.2.1, 06/03/2016 (D. Carpintero):
-%   corrected some misprints (languaje, presentacion, chose)
-%   added Spanish mathematical functions
-%   added macros for degrees etc. over the decimal point
-%   added family of arial-type font for tensors
-% v2.2.2, 07/03/2016 (D. Carpintero)
-%   changed abbrev. of the Revista Mexicana de Astronom韆 y Astrof韘ica from
-%      Rev. Mex. Astron. Astrofis. to RevMexAA (as used by that journal)
-%   added Revista Mexicana de Astronom韆 y Astrof韘ica (Serie de Conferencias)
-%      as RevMexAA (SC) (as used by that journal)
-%   corrected bug in subindices m醲 and m韓
-%   added use of arial-type font of tensors in math mode
-%   removed production of decimal comma in mathematical mode (Spanish)
-% v 2.2.3, 08/03/2016 (D. Carpintero)
-%   corrected font arial-type, avoiding cmss7 and cmss5 which are not present in
-%      the standard TeX. Changed to "cmss10 at 7pt" and 5 pt; being sans serif
-%      this doesn't affect the quality of subscrpits.
-% v 2.2.4, 12/03/2016 (D. Carpintero)
-%   changed \tablename --> \tablaname because 'spanish' style puts Cuadro 
-%      instead of Tabla, despite 'es-table' (not recognized) or various 
-%      def-new-renewcommand's inserted here and there.
-% v 2.2.5, 16/03/2016 (D. Carpintero)
-%   typo corrected (rmxaacs --> rmxaasc)
-% v 2.2.6, 19/03/2016 (D. Carpintero)
-%   bug corrected: when only one affiliation present, it was not preceded by its
-%      corresponding number 1.
-% v 2.2.7, 21/03/2016 (D. Carpintero)
-%   the spacing before itemize was reduced from 8 pc to 2 pc
-% v 2.2.8, 23/03/2016 (R. Gamen)
-%   added Publications of the Astronomical Society of the Pacific (\pasp, PASP)
 %
 % ----------------------------------------------------------------------------------
 
@@ -49,7 +12,7 @@
 %=============================================================================
 
 \NeedsTeXFormat{LaTeX2e}[2011/06/27]
-%\ProvidesClass{aaa2014}[2014/05/15 LaTeX document class for AAA publications, v1.0]
+\ProvidesClass{aaa2014}[2014/05/15 LaTeX document class for AAA publications, v1.0]
 
 % EXTERNAL PACKAGES
 %=============================================================================
@@ -190,8 +153,7 @@
  % Itemized lists
  \def\@listi{\leftmargin\leftmargini
              \parsep \z@
-%             \topsep 8\p@ \@plus2\p@ \@minus4\p@
-             \topsep 2\p@ \@plus2\p@ \@minus1\p@
+             \topsep 8\p@ \@plus2\p@ \@minus4\p@
              \itemsep\parsep}
  \let\@listI\@listi
  \@listi
@@ -366,7 +328,6 @@
 \def\contriblanguage#1
 {
   \ifnum #1 = 0
-\def\lenguaje{\selectlanguage{spanish}}
     \def\keywordname{Keywords}
     \def\abstractname{Abstract}
     \def\resumenname{Resumen}
@@ -378,22 +339,20 @@
     \def\refname{Referencias}
     \def\indexname{\'Indice}
     \def\figurename{Fig.}
-%    \def\tablename{Tabla}
-    \def\tablaname{Tabla}
+    \def\tablename{Tabla}
     \def\partname{Parte}
     \def\appendixname{Ap\'endice}
-    \def\contribtype##1{\def\ctypename{\ifnum ##1 = 1{Presentaci\'on mural}
-                                       \else \ifnum ##1 = 2{Presentaci\'on oral}
+    \def\contribtype##1{\def\ctypename{\ifnum ##1 = 1{Presentacion mural}
+                                       \else \ifnum ##1 = 2{Presentacion oral}
                                        \else \ifnum ##1 = 3{Informe invitado}
                                        \else \ifnum ##1 = 4{Mesa redonda}
                                        \else \ifnum ##1 = 5{Presentaci贸n Premio Varsavsky}
                                        \else \ifnum ##1 = 6{Presentaci贸n Premio Sahade}
                                        \else \ifnum ##1 = 7{Presentaci贸n Premio S茅rsic}
                                        \else \ifnum ##1 = 314{EDITORIAL}
-                                       \else{POR FAVOR ELEGIR TIPO DE PRESENTACI\'ON} 
+                                       \else{POR FAVOR ELEGIR TIPO DE PRESENTACION} 
                                  \fi \fi \fi \fi \fi \fi \fi \fi}}
   \else \ifnum #1 = 1
-\def\lenguaje{\selectlanguage{english}}
     \def\keywordname{Keywords}
     \def\abstractname{Abstract}
     \def\resumenname{Resumen}
@@ -405,8 +364,7 @@
     \def\refname{References}
     \def\indexname{Index}
     \def\figurename{Fig.}
-%    \def\tablename{Table}
-    \def\tablaname{Table}
+    \def\tablename{Table}
     \def\partname{Part}
     \def\appendixname{Appendix}
     \def\contribtype##1{\def\ctypename{\ifnum ##1 = 1{Poster}
@@ -416,12 +374,12 @@
                                        \else \ifnum ##1 = 5{Varsavsky Prize contribution}
                                        \else \ifnum ##1 = 6{Sahade Prize contribution}
                                        \else \ifnum ##1 = 7{S茅rsic Prize contribution}
-                                       \else {PLEASE CHOOSE PRESENTATION TYPE} 
+                                       \else {PLEASE CHOSE PRESENTATION TYPE} 
                                  \fi \fi \fi \fi \fi \fi \fi}}
   \else
      \PackageError{BAAA}%
-     {POR FAVOR ELIJA UN IDIOMA / PLEASE CHOOSE A LANGUAGE}%
-     {complete contriblanguage field, either 0 (Spanish) or 1 (English)}
+     {POR FAVOR ELIJA UN IDIOMA / PLEASE CHOSE LANGUAJE}%
+     {complete contriblanguage field, either 0 (spanish) or 1 (english)}
      \stop
   \fi
   \fi
@@ -506,7 +464,7 @@
 % Setting left margin; this is the smallest value I can get to have
 % second etc. lines indented to footnote number; zero put indentation
 % to some positive value, and negative values do not help actually
-%\renewcommand{\footnotelayout}{\hspace{2pt}}
+\renewcommand{\footnotelayout}{\hspace{2pt}}
 % Here you can modify the spacing between the footnote number and the
 % text of footnote; keep this value and \hangfootparindent value the
 % same
@@ -517,8 +475,8 @@
 %
 \def\ps@aaaheadings
 {
-   \def\@oddfoot{BAAA, 60, 2018 \hfill\small\thepage}
-   \def\@evenfoot{\small \thepage\hfill BAAA, 60, 2018}
+   \def\@oddfoot{BAAA, 58, 2016 \hfill\small\thepage}
+   \def\@evenfoot{\small \thepage\hfill BAAA, 58, 2016}
    \def\@evenhead{\hfil\the\titlerunning\leftmark\hfil}%
    \def\@oddhead{\small\hfil\rightmark\the\authorrunning\hfil}%
    \let\@mkboth\@gobbletwo
@@ -595,13 +553,13 @@
  \ifnum\value{inst}>9\relax\setbox0=\hbox{$^{88}$\enspace}%
                  \else\setbox0=\hbox{$^{8}$\enspace}\fi
  \instindent=\wd0\relax
- % \ifnum\value{inst}=1\relax
- % \else
+ \ifnum\value{inst}=1\relax
+ \else
    \setcounter{inst}{1}%
    \hangindent\instindent
    \noindent
    \hbox to\instindent{\hss$^{\theinst}$\enspace}\ignorespaces
- % \fi
+ \fi
  \ignorespaces
  \@institute\par
  \endgroup}
@@ -655,7 +613,6 @@
  \global\let\resumen\relax
  \global\let\date\relax
  \global\let\and\relax
- \lenguaje
 }
 
 \let\thanks=\footnote
@@ -787,14 +744,12 @@
   \leftskip=0.7cm
   \rightskip=0.7cm
   \small\rm
-\selectlanguage{spanish}
   \@resumen
 %
 % Print abstract
 %
   \vskip 12pt
   \small\rm
-\selectlanguage{english}
   \@abstract 
 
 %
@@ -940,113 +895,41 @@
 \def\degr{\hbox{$^\circ$}}
 \def\arcmin{\hbox{$^\prime$}}
 \def\arcsec{\hbox{$^{\prime\prime}$}}
-
-% New capabilities
 %
-% Funciones en castellano: sen, senh, arcsen, l韒, m骴
-%
-\def\sen{\mathop{\rm sen}\nolimits}
-\def\senh{\mathop{\rm senh}\nolimits}
-\def\arcsen{\mathop{\rm arcsen}\nolimits}
-\def\limi{\mathop{\rm l\acute{\hbox{\i}}m}}
-\def\modu{\mathop{\rm m\acute{\hbox{o}}d}}
-%
-% Sub韓dices en castellano: m醲 y m韓
-%
-\def\maxi{{\scriptstyle{\rm m}\acute{\hbox{$\scriptstyle{\rm a}$}}{\rm x}}}
-\def\mini{{\scriptstyle{\rm m}\acute{\hbox{$\scriptstyle{\rm \i}$}}{\rm n}}}
-%
-% Grados, horas y segundos de arco y tiempo con decimales.
-%
-\def\gp{\rlap{.}^\circ} 
-\def\hp{\rlap{.}^{\hbox{\sevenrm h}}}
-\def\sp{\rlap{.}''}
-\def\stp{\rlap{.}^{\hbox{\sevenrm s}}}
-%
-% Fuente tipo arial para tensores y para "es en forma de tal letra"
-% Se puede usar en modo texto o en modo matem醫ico
-%
-\font\diezarial=cmss10
-\font\sietearial=cmss10 at 7 pt
-\font\cincoarial=cmss10 at 5 pt
-\newfam\arialfam
-\textfont\arialfam=\diezarial
-\scriptfont\arialfam=\sietearial
-\scriptscriptfont\arialfam=\cincoarial
-\def\arial{\fam\arialfam\diezarial}
-%
-% El lenguaje 'spanish' de 'babel' usa coma decimal en modo matem醫ico; el
-% estilo BAAA usa punto decimal aun en textos en castellano:
-%
-\decimalpoint
-%
-
-%%%%%
 % Journal abbreviations
-%%%%%
+%
+\def\aj{AJ} % Astronomical Journal
+\def\araa{ARA\&A} % Annual Review of Astronomy and Astrophysics
+\def\apj{ApJ} % Astrophysical Journal
+\def\apjl{ApJL} % Astrophysical Journal Letters
+\def\apjs{ApJS} % Astrophysical Journal Supplement
+\def\apss{Ap\&SS} % Astrophysics and Space Science
+\def\aap{A\&A} % Astronomy and Astrophysics
+\def\aapr{A\&A~Rev.} % Astronomy and Astrophysics Reviews
+\def\aaps{A\&AS} % Astronomy and Astrophysics Supplement
+\def\baas{BAAA} % Bolet铆n de la AAA
+\def\mnras{MNRAS} % Monthly Notices of the RAS
+\def\na{New~A.} % New Astronomy
+\def\nar{New~A.~Rev.} % New Astronomy Review
+\def\prl{Phys.~Rev.~Lett.} % Physical Review Letters
+\def\rmxaa{Rev.~Mex.~Astron.~Astrofis.} % Revista Mexicana de Astronomia y Astrofisica
+\def\science{Science} % Science
+\def\solphys{Sol.~Phys.} % Solar Physics
+\def\ssr{Space~Sci.~Rev.} % Space Science Reviews
+\def\nat{Nature} % Nature
+\def\aplett{Astrophys.~Lett.} % Astrophysics Letters
+\def\apspr{Astrophys.~Space~Phys.~Res.} % Astrophysics Space Physics Research
+\def\planss{Planet.~Space~Sci.} % Planetary Space Science
+\def\icarus{Icarus} % Icarus
+\def\iaucirc{IAUCs} % IAU circulars
+\def\iaucs{IAUCs} % IAU circulars
+\def\jrasc{JRASC} % Royal Astronomical Society of Canada
 
-\def\aj{AJ}%                             % Astronomical Journal 
-\def\araa{ARA\&A}%                       % Annual Review of Astron and Astrophys 
-\def\apj{ApJ}%                           % Astrophysical Journal ++
-\def\apjl{ApJL}%                         % Astrophysical Journal, Letters 
-\def\apjs{ApJS}%                         % Astrophysical Journal, Supplement 
-\def\ao{ApOpt}%                          % Applied Optics ++
-\def\apss{Ap\&SS}%                       % Astrophysics and Space Science 
-\def\aap{A\&A}%                          % Astronomy and Astrophysics 
-\def\aapr{A\&A~Rv}%                      % Astronomy and Astrophysics Reviews 
-\def\aaps{A\&AS}%                        % Astronomy and Astrophysics, Supplement 
-\def\azh{AZh}%                           % Astronomicheskii Zhurnal 
-\def\baaa{BAAA}%                         % Boletinn de la AAA
-\def\baas{BAAS}%                         % Bulletin of the AAS 
-\def\cmda{Celest.~Mech.~Dyn.~Astron.}    % Celestial Mechanics and Dynamical Astronomy
-\def\icarus{Icarus}%                     % Icarus
-\def\jrasc{JRASC}%                       % Journal of the RAS of Canada 
-\def\memras{MmRAS}%                      % Memoirs of the RAS 
-\def\mnras{MNRAS}%                       % Monthly Notices of the RAS 
-\def\pra{PhRvA}%                         % Physical Review A: General Physics ++
-\def\prb{PhRvB}%                         % Physical Review B: Solid State ++
-\def\prc{PhRvC}%                         % Physical Review C ++
-\def\prd{PhRvD}%                         % Physical Review D ++
-\def\pre{PhRvE}%                         % Physical Review E ++
-\def\prl{PhRvL}%                         % Physical Review Letters 
-\def\pasp{PASP}%                         % Publications of the ASP 
-\def\pasj{PASJ}%                         % Publications of the ASJ 
-\def\qjras{QJRAS}%                       % Quarterly Journal of the RAS 
-\def\skytel{S\&T}%                       % Sky and Telescope 
-\def\solphys{SoPh}%                      % Solar Physics 
-\def\sovast{Soviet~Ast.}%                % Soviet Astronomy 
-\def\ssr{SSRv}%                          % Space Science Reviews 
-\def\zap{ZA}%                            % Zeitschrift fuer Astrophysik 
-\def\nat{Nature}%                        % Nature 
-\def\iaucirc{IAUC}%                      % IAU Cirulars 
-\def\aplett{Astrophys.~Lett.}%           % Astrophysics Letters 
-\def\apspr{Astrophys.~Space~Phys.~Res.}% % Astrophysics Space Physics Research 
-\def\bain{BAN}%                          % Bulletin Astronomical Institute of the Netherlands 
-\def\fcp{FCPh}%                          % Fundamental Cosmic Physics 
-\def\gca{GeoCoA}%                        % Geochimica Cosmochimica Acta 
-\def\grl{Geophys.~Res.~Lett.}%           % Geophysics Research Letters 
-\def\jcp{JChPh}%                         % Journal of Chemical Physics 
-\def\jgr{J.~Geophys.~Res.}%              % Journal of Geophysics Research 
-\def\jqsrt{JQSRT}%                       % Journal of Quantitiative Spectroscopy and Radiative Trasfer 
-\def\memsai{MmSAI}%                      % Mem. Societa Astronomica Italiana 
-\def\nphysa{NuPhA}%                      % Nuclear Physics A 
-\def\physrep{PhR}%                       % Physics Reports 
-\def\physscr{PhyS}%                      % Physica Scripta 
-\def\planss{Planet.~Space~Sci.}%         % Planetary Space Science 
-\def\procspie{Proc.~SPIE}%               % Proceedings of the SPIE 
-\def\actaa{AcA}%                         % Acta Astronomica
-\def\caa{ChA\&A}%                        % Chinese Astronomy and Astrophysics
-\def\cjaa{ChJA\&A}%                      % Chinese Journal of Astronomy and Astrophysics
-\def\jcap{JCAP}%                         % Journal of Cosmology and Astroparticle Physics
-\def\na{NewA}%                           % New Astronomy
-\def\nar{NewAR}%                         % New Astronomy Review
-\def\pasa{PASA}%                         % Publications of the Astron. Soc. of Australia
-\def\rmxaa{RMxAA}%                       % Revista Mexicana de Astronomia y Astrofisica
-\def\rmxaasc{RMxAA~(SC)}%                % Revista Mexicana de Astronom韆 y Astrof韘ica (Serie de Conferencias)
-\def\maps{M\&PS}%                        % Meteoritics and Planetary Science
-\def\aas{AAS Meeting Abstracts}%         % American Astronomical Society Meeting Abstracts
-\def\dps{AAS/DPS Meeting Abstracts}%     % American Astronomical Society/Division for Planetary Sciences Meeting Abstracts
-\def\science{Science}%                   % Science
+
+
+%
+%}}}
+
 
 % CLASS STRUCTURE
 %=============================================================================
@@ -1206,8 +1089,7 @@
  \def\fps@table{tbp}
  \def\ftype@table{2}
  \def\ext@table{lot}
-% \def\fnum@table{\tablename~\thetable}
- \def\fnum@table{\tablaname~\thetable}
+ \def\fnum@table{\tablename~\thetable}
  \newenvironment{table}
                 {\small\@float{table}}
                 {\end@float}

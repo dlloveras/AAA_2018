@@ -1,0 +1,5 @@
+*La compilacion del template tira error independientemente de que se utilice pdflatex o bibtex o lo que sea, parece haber un tema en el baaa.cls, como es costumbre con el Boletin de AAA.
+*La vez pasada terminé corriendo reiteradas veces pdflatex y el supuesto error de baaa.cls queda pisado y no vuelve a salir. Eso hace que las referencias aparezcan como corresponden aún SIN usar el bibtex.
+Con lo cual propongo: pdflatex+pdflatex+pdflatex y ya. Al menos con eso no tuve problema la vez pasada a la hora de submitirlo.
+
+De todas formas mandé mail al editor para que me diga como deberia compilarlo correctamente. Actualizare este archivo cuando tenga ams info.

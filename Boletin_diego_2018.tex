@@ -176,10 +176,11 @@
 %                                                                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\resumen{
+\resumen{\emph{Tomografía solar rotacional} (SRT, por sus siglas en inglés) es una técnica observacional que aplicada a la corona solar permite la reconstruccion en tres dimensiones (3D) de la distribución de ciertos parámetros fundamentales a escala global. En particular la técnica permite la determinación de la distribución 3D de la densidad electrónica en la corona. Los resultados de densidad utilizando datos de luz blanca son de naturaleza absoluta, mientras que utilizando datos en extremo ultravioleta (EUV) escalean como la raiz cuadrada de la abundancia de hierro. Tomografía en EUV es aplicada a datos obtenidos con EUVI/STEREO y AIA/SDO, cubriendo un rango de alturas entre 1.02 y 1.25 radios solares. Este rango de altura solapa el rango de visión del coronógrafo (luz blanca) KCOR/HAO, el cual subre un rango de alturas entre 1.05 y 3.0 radios solares. En este trabajo presentamos los primeros resultados de una simultanea comparación de resultados tomográficos de la densidad electrónica coronal utilizando los intrumentos anteriormente mencionados. Este el es primer paso hacia el desarrollo de la técnica de Tomografía Multi Instrumental, cuyo objetivo es realizar reconstrucciones tomográficas simultaneas utilizando Lasco-C2, K-cor, Ucomp, AIA o EUVI para obtener una única reconstrucción global de densidad y temperatura electrónica, abundancia de hierro.
+
 }
 
-\abstract{\emph{Solar rotational tomography} (SRT) is an observational technique of the solar corona that allows reconstruction of the three-dimensional (3D) distribution of some of its fundamental physical parameters at a global scale. In particular, it allows determination of the 3D distribution of the coronal electron density. Applied to white-light data, SRT density results are of an absolute nature, while applied to extreme ultraviolet (EUV) data they scale with the square root of the iron (Fe) abundance. EUV tomography is routinely applied to EUVI/STEREO and AIA/SDO data, covering the heliocentric height range 1.02 to 1.25 Rsun. That height range overlaps the field of view of the white light KCOR/HAO coronagraph, which covers the height range 1.05 to 3.0 Rsun. In this work we present first results of comparing simultaneous tomographic reconstructions of the coronal electron density based on the aforementioned instruments. This is the first step throw {\emph {Multi-Instrumental Tomography}} (MIT) technique, which aims to perform simultaneus tomographic reconstruction for lasco-C2, K-cor, Ucomp and AIA or EUVI to obtain temperature and electron density, iron abundances.
+\abstract{\emph{Solar rotational tomography} (SRT) is an observational technique of the solar corona that allows reconstruction of the three-dimensional (3D) distribution of some of its fundamental physical parameters at a global scale. In particular, it allows determination of the 3D distribution of the coronal electron density. Applied to white-light data, SRT density results are of an absolute nature, while applied to extreme ultraviolet (EUV) data they scale with the square root of the iron (Fe) abundance. EUV tomography is routinely applied to EUVI/STEREO and AIA/SDO data, covering the heliocentric height range 1.02 to 1.25 Rsun. That height range overlaps the field of view of the white light KCOR/HAO coronagraph, which covers the height range 1.05 to 3.0 Rsun. In this work we present first results of comparing simultaneous tomographic reconstructions of the coronal electron density based on the aforementioned instruments. This is the first step throw {\emph {Multi-Instrumental Tomography}} (MIT) technique, which aims to perform simultaneus tomographic reconstruction for lasco-C2, K-cor, Ucomp and AIA or EUVI to obtain a unique result of temperature and electron density, iron abundances.
 
 %We study the distribution of Fe abundance in both magnetically open and closed field structures. Our effort aims at helping to determine the absolute value of the First Ionization Potential (FIP) bias, discriminating whether the FIP effect consists of an enhancement of low-FIP elements, a depletion of high-FIP elements, or a combination of both.
 }
@@ -206,11 +207,11 @@
 \label{intro}
 
 
-Un estudio en radiancia de luz blanca de \cite{awsom}
+
 
 \section{Method}
 
-Utilizando una serie temporal de imágenes EUV que cubren una rotación solar completa, la técnica DEMT permite reconstruir la distribución 3D de la emisividad en cada banda del telescopio EUV. Los valores de emisividad se obtienen en una malla esférica que cubre alturas de 1.0 a 1.25 R$_\odot$ con celdas de tamaño 0.01 R$_\odot$ en dirección radial y $2^\circ$ en direcciones angulares.
+
 
 \begin{figure}
   \centering
@@ -232,21 +233,16 @@ Utilizando una serie temporal de imágenes EUV que cubren una rotación solar co
   \label{fig_maps}
 \end{figure}
 
-\begin{figure}
+\begin{figure*}
   \centering
-  \includegraphics[width=0.3\textwidth]{figures/Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Quiet-region1.eps}\\
-  \includegraphics[width=0.4\textwidth]{figures/comparison_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Quiet-region1_range1105-1195_Rsun.eps}	
-  \caption{AIA/SDO.}
-  \label{fig_averages}
-\end{figure}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.3\textwidth]{figures/Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Open-region_N.eps}\\
-  \includegraphics[width=0.4\textwidth]{figures/comparison_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Open-region_N_range1105-1155_Rsun.eps}	
+  \includegraphics[width=0.4\textwidth]{figures/Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Quiet-region1.eps}
+  \includegraphics[width=0.4\textwidth]{figures/Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Open-region_N.eps}\\
+  \includegraphics[width=0.4\textwidth]{figures/comparison_quiet_region.eps}
+  \includegraphics[width=0.4\textwidth]{figures/comparison_open.eps}
+  %comparison_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Open-region_N_range1105-1155_Rsun.eps}	
   \caption{AIA/SDO.}
   \label{fig_comparisson}
-\end{figure}
+\end{figure*}
 
 
 \section{Conclusions and future efforts}

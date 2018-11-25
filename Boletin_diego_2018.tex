@@ -185,9 +185,9 @@
 %                                                                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\resumen{La tomografía solar rotacional (SRT, por sus siglas en inglés) es una técnica observacional de la corona solar que permite la reconstruccion de la distribución tri-dimensional (3D) global de algunos de sus parámetros fundamentales, como por ejemplo la densidad electrónica. Aplicada a imágenes de luz blanca, los resultados de densidad electrónica son de naturaleza absoluta, mientras que utilizando datos en extremo ultravioleta (EUV) los resultados dependen de la abundancia de hierro coronal. La tomografía basada en EUV es aplicada regularmente a datos obtenidos con EUVI/STEREO y AIA/SDO, cubriendo el rango de alturas heliocéntricas $1.02-1.25~\rm{R}_\odot$. Este rango solapa el del campo de visión del coronógrafo de luz blanca KCOR/HAO, que cubre el rango $1.05-3.0~\rm{R}_\odot$. En este trabajo presentamos los primeros resultados de comparar la reconstrucción de la densidad electrónica coronal utilizando los intrumentos mencionados previamente. Este es un primer paso hacia el desarrollo de una técnica de tomografía multi-lontitud-de-onda (MWT, por sus siglas en inglés). Esta técnica tendrá por objetivo el reconstruir la distribución 3D de diversos parámetros coronales en forma simultánea, a través del análisis conjunto de resultados tomográficos basados en datos provistos por diversos instrumentos, incluyendo coronógrafos de luz blanca, telescopios EUV y coronógrafos de lineas de emisión coronal en el rango visible.}
+\resumen{La tomografía solar rotacional (SRT, por sus siglas en inglés) es una técnica observacional de la corona solar que permite la reconstruccion de la distribución tri-dimensional (3D) global de algunos de sus parámetros fundamentales, como por ejemplo la densidad electrónica. Aplicada a imágenes de luz blanca, los resultados de densidad electrónica son de naturaleza absoluta, mientras que utilizando datos en extremo ultravioleta (EUV) los resultados dependen de la abundancia de hierro coronal. La tomografía basada en EUV es aplicada regularmente a datos obtenidos con STEREO/EUVI y SDO/AIA, cubriendo el rango de alturas heliocéntricas $1.02-1.25~\rm{R}_\odot$. Este rango solapa el del campo de visión del coronógrafo de luz blanca KCOR/HAO, que cubre el rango $1.05-3.0~\rm{R}_\odot$. En este trabajo presentamos los primeros resultados de comparar la reconstrucción de la densidad electrónica coronal utilizando los intrumentos mencionados previamente. Este es un primer paso hacia el desarrollo de una técnica de tomografía multi-lontitud-de-onda (MWT, por sus siglas en inglés). Esta técnica tendrá por objetivo el reconstruir la distribución 3D de diversos parámetros coronales en forma simultánea, a través del análisis conjunto de resultados tomográficos basados en datos provistos por diversos instrumentos, incluyendo coronógrafos de luz blanca, telescopios EUV y coronógrafos de lineas de emisión coronal en el rango visible.}
 
-\abstract{Solar rotational tomography (SRT) is an observational technique of the solar corona that allows reconstruction of the global three-dimensional (3D) distribution of some of its fundamental physical parameters, such as electron density. Applied to white-light data, density results are of an absolute nature, while applied to extreme ultraviolet (EUV) data they scale with the iron abundance. EUV tomography is routinely applied to EUVI/STEREO and AIA/SDO data, covering the range of heliocentric heights $1.02-1.25~\rm{R}_\odot$. This range overlaps that of the field of view of the white light KCOR/HAO coronagraph, which covers the range $1.05-3.0~\rm{R}_\odot$. We present first results of comparing simultaneous tomographic reconstructions of the coronal electron density based on the aforementioned instruments. This is a first step towards implementation of a multi-wavelength tomography (MWT) technique. MWT will aim at simultaneously reconstructing the 3D distribution of different coronal parameters through joint analysis of tomographic results based on data provided by multiple instruments, including white-light coronagraphs, EUV telescopes and visible emission line coronagraphs.
+\abstract{Solar rotational tomography (SRT) is an observational technique of the solar corona that allows reconstruction of the global three-dimensional (3D) distribution of some of its fundamental physical parameters, such as electron density. Applied to white-light data, density results are of an absolute nature, while applied to extreme ultraviolet (EUV) data they scale with the iron abundance. EUV tomography is routinely applied to STEREO/EUVI and SDO/AIA data, covering the range of heliocentric heights $1.02-1.25~\rm{R}_\odot$. This range overlaps that of the field of view of the white light HAO/KCOR coronagraph, which covers the range $1.05-3.0~\rm{R}_\odot$. We present first results of comparing simultaneous tomographic reconstructions of the coronal electron density based on the aforementioned instruments. This is a first step towards implementation of a multi-wavelength tomography (MWT) technique. MWT will aim at simultaneously reconstructing the 3D distribution of different coronal parameters through joint analysis of tomographic results based on data provided by multiple instruments, including white-light coronagraphs, EUV telescopes and visible emission line coronagraphs.
 %We study the distribution of Fe abundance in both magnetically open and closed field structures. Our effort aims at helping to determine the absolute value of the First Ionization Potential (FIP) bias, discriminating whether the FIP effect consists of an enhancement of low-FIP elements, a depletion of high-FIP elements, or a combination of both.
 }
 
@@ -211,36 +211,40 @@
 
 \section{Introduction}\label{intro}
 
-\section{Method}\label{method}
+\section{Data and Methodology}\label{method}
 
-\begin{figure*}
+Carrington rotation (CR-) 2198 (2017, December 03 UT 14:37 through December 30	UT 22:25) was selected as target for analyis. This was a relatively quiet rotation in the declining activity phase of solar cycle (SC-) 24. Low latitudes were dominated by the equatorial streamer belt, high latitudes by polar coronal holes (CHs), and a complex of several ARs was located in the longitude range $\approx 80^\circ-200^\circ$. 
+
+Figure \ref{fig_images} shows examples of coronal images of this rotation. The left panel shows a coronal EUV image taken by the SDO/AIA instrument in the $211~\rm{\AA}$ band. The right panel shows a coronal polarized brightnes (pB) white light (WL) image. Both images were taken nearly-simultaneously, on 2017 December 03 UT 18:00-19:00, roughly the beginning of CR-2198. The longitude of the disk center in these images is $\approx 0^\circ$, so that ARs are not seen here, and the image is dominated by the quiet sun streamer belt and and the CHs.
+
+\begin{figure*}[t]
   \centering
   \includegraphics[width=0.95\columnwidth]{img_211.pdf}
-  \hskip 0.75cm
+  \hskip 0.5cm
   \includegraphics[width=0.95\columnwidth]{20171203_180316_kcor_l1_10min_avg_image.pdf}
-  \caption{KCOR/HAO.}
+  \caption{Example of images used for tomographic reconstruction of the coronal electron density of CR-2198 (see text), both corresponding to 2017 December 03 UT 18:00-19:00. Left panel: SDO/AIA coronal EUV image in the $211~\rm{\AA}$ band. Right panel: HAO/KCOR coronal pB image, with white rings indicating heliocentric heights $1.09, 1.50, \rm{and}\, 2.0~\rm{R}_\odot$.}
   \label{fig_images}
 \end{figure*}
 
 
 \section{Results}
 
-\begin{figure*}
+\begin{figure*}[h]
   \centering
   \includegraphics[width=\columnwidth]{map_ne_aia.pdf}
   \includegraphics[width=\columnwidth]{map_ne_kcor.pdf}
-  \caption{AIA/SDO.}
+  \caption{Example of results of the tomographic reconstruction of the electron density of the solar corona for CR-2198. Carrington maps of the reconstructed electron density are shown at heliocentric height $r=1.105~\rm{R}_\odot$. Left panel: reconstruction based on EUV data. Right panel: reconstruction based on WL data. The white boxes indicate two ranges of longitudes and latitudes selected for quantitative comparison. The region in the Southern hemisphere is a high-density quiet Sun region within the equatorial streamer belt during this rotation. The region in the Northern hemisphere is a lower density region at subpolar latitudes in the northern CH.}
   \label{fig_maps}
 \end{figure*}
 
-\begin{figure*}
+\begin{figure*}[h]
   \centering
   \includegraphics[width=\columnwidth]{comparison_quiet_region.pdf}
   \includegraphics[width=\columnwidth]{comparison_open.pdf}\\
   \includegraphics[width=\columnwidth]{Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Quiet-region1.pdf}
   \includegraphics[width=\columnwidth]{Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l45_kcor_subreg-Open-region_N.pdf}
-  \caption{AIA/SDO.}
-  \label{fig_comparisson}
+  \caption{Quantitative comparison between the results of the two tomographic reconstructions of the coronal electron density of CR-2198. Results are shown here for the two selected regions indicated in Figure \ref{fig_maps}. Left panels show the results in the quiet sun region of the southern hemisphere within the streamer belt, and right panels show the results in the subpolar open region within the northern CH. For each region, the top panel shows the frecuency histogram of the ratio of the electron density value obtained in each computational voxel from WL and EUV tomographies. For each region, the bottom panels show the average radial profile of the electron density based on the EUV (red) and WL (blue) tomographies.}
+  \label{fig_analysis}
 \end{figure*}
 
 

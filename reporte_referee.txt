@@ -1,0 +1,69 @@
+﻿Dear Diego Lloveras,
+
+Copied below are the reviewer's comments regarding your manuscript
+"Tomography of the Solar Corona with Multiple Instruments: First Steps".
+
+Changes to the manuscript should be highlighted (e.g. in bold or color), to assist the referee and editor. The revised version should be submitted, together with your response to the reviewer's comments, using SiGMa.
+
+
+Some editorial comments:
+
+- Please, check you are using the BAAA style: http://sigma.astronomiaargentina.org.ar/docs/SGM_docs_v01/Surf/M0SM5.html
+
+- If figures from other works are included, please attach the corresponding permission.
+
+- Add /& to the authors list.
+
+Best regards,
+
+
+Dr.-Ing. Francisco A. Iglesias
+
+BAAA Editorial Secretary
+
+--------------------------------------------------
+Referee Report:
+
+This manuscript describes in a concise way the comparison of results obtained after the application of tomographic reconstruction techniques to EUV and white light data sets. As the title reads, this is a very first step and several considerations would be taken into account in upcoming work. I have a number of (but mostly very minor) suggestions to the manuscript:
+
+Climate ande Space --> Climate and Space
+
+reconstruccion --> reconstrucción
+
+tri-dimensional --> tridimensional
+
+asi como --> así como
+
+against that reconstructed --> against the reconstruction
+
+More recent DEMT-based works include Lloveras --> More recent DEMT-based studies include that by Lloveras
+
+no comparison had been carried out --> no comparison has been carried out
+
+Overall: when addressing dates, please consider moving the year to the end. For instance, "2017, December 03" can be written as "3 December 2017".
+
+quiet sun --> 	quiet Sun (to my best knowledge)
+
+First paragraph of Section 2 should end with "." instead of ","
+
+Second paragraph of Section 2: it is not clear why images for the period 3-17 December are to be analyzed, instead of the whole CR-2198, which had just been mentioned in the previos paragraph to be the target of analysis. Also in Section 3, there is mention to "specific data sets of this rotation". There is probably a good reason for not having considered data of the full Carrington rotation, but it should be stated in the manuscript.
+
+-both (...) analysis --> both (...) analyses (three times)
+
+Example of results of the tomographic reconstruction of the electron density of the solar corona
+--> An example of the results of the tomographic reconstruction of the coronal electron density
+
+from the WL and EUV tomographic analysis --> from the WL and EUV tomographic analyses
+
+Firstly, the EUV emissivity determined --> Regarding EUV emissivity, firstly, its value determined
+
+then f ∼ 4.0 the quiet --> then f ∼ 4.0 in the quiet
+
+emmisivity --> emissivity
+
+When addressing the MIT technique, it would be interesting to read "and currently under development by us" or "...by us in collaboration with..."
+
+Section 4, last paragraph: "with that to be provided" does not make much sense here, please rephrase.
+
+
+

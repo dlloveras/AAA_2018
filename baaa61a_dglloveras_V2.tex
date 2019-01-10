@@ -47,14 +47,14 @@
 \usepackage{graphicx}
 
 %-------------------DEFINICIONES A REMOVER---------------------------
-\def\Eeuv{E_{\rm{EUV}}}
-\def\Ewl{E_{\rm{WL}}}
-\def\AvgNE2{\left<N_e^2\right>}
-\def\AvgNe{\left<N_e\right>}
-\def\SigmaNe{\sigma_{Ne}}
-\def\VarNe{\rm{Var}N_e}
-\def\AvgTe{\left<T_e\right>}
-\def\SigmaTe{\sigma_{Te}}
+%\def\Eeuv{E_{\rm{EUV}}}
+%\def\Ewl{E_{\rm{WL}}}
+%\def\AvgNE2{\left<N_e^2\right>}
+%\def\AvgNe{\left<N_e\right>}
+%\def\SigmaNe{\sigma_{Ne}}
+%\def\VarNe{\rm{Var}N_e}
+%\def\AvgTe{\left<T_e\right>}
+%\def\SigmaTe{\sigma_{Te}}
 %---------------------------------------------------------------------
 
 \begin{document}
@@ -157,7 +157,7 @@
 %                                                                            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author{D.G. Lloveras\inst{1}, A.M. Vásquez\inst{1,2}, Enrico Landi\inst{3}, \& Richard A. Frazin\inst{3} }
+\author{D.G. Lloveras\inst{1}, A.M. Vásquez\inst{1,2}, E. Landi\inst{3}, \& R. A. Frazin\inst{3} }
 \authorrunning{Lloveras et al.}  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                            %
@@ -270,11 +270,11 @@ The coronal electron density determined from WL tomography is systematically lar
 
 This difference may be partly explained by the fact that the KCOR data is affected by the sky brightness which was not subtracted in the specific data set used for this first work, as the required procedures were being revised by the HAO team at the moment of this analysis. Once applied a sky subtraction, the electron density as determined from WL tomography will systematically decrease. If systematic differences persist they can be attributable to physical factors. 
 
-{Regarding EUV emissivity, firstly, its value determined} at each voxel from tomographic analysis is proportional to the local mean squared electron density, i.e. $\Eeuv \propto \AvgNE2 = f\,\AvgNe^2$, where the \emph{filling factor} is here defined as $f\equiv\AvgNE2 / \AvgNe^2 > 1$. As the WL emission is due to Thompson scattering, its voxel emissivity is proportional to the local average electron density, i.e. $\Ewl \propto \AvgNe$. Then: $\AvgNe_{\rm{WL}} / \AvgNe_{\rm{EUV}} \propto \sqrt{f}$. 
+{Regarding EUV emissivity, firstly, its value determined} at each voxel from tomographic analysis is proportional to the local mean squared electron density, i.e. $E_{\rm{EUV}} \propto \left<N_e^2\right> = f\,\left<N_e\right>^2$, where the \emph{filling factor} is here defined as $f\equiv\left<N_e^2\right> / \left<N_e\right>^2 > 1$. As the WL emission is due to Thompson scattering, its voxel emissivity is proportional to the local average electron density, i.e. $E_{\rm{WL}} \propto \left<N_e\right>$. Then: $\left<N_e\right>_{\rm{WL}} / \left<N_e\right>_{\rm{EUV}} \propto \sqrt{f}$. 
 
-If differences in the results are solely attributed to the filling factor $f$, then $f\sim 4.0$ in the quiet Sun region of the streamer belt, and $f\sim 2.5$ in the subpolar region of the CH. As for any probability distribution, $\SigmaNe^2 \equiv \rm{Var}(N_e) = \AvgNE2 - \AvgNe^2 = \AvgNe^2 \, (f-1)$, then $\SigmaNe / \AvgNe = \sqrt{f-1}$. With this interpretation, where $f$ is larger (quiet {Sun} region) the electron density probability distribution has a larger variance.
+If differences in the results are solely attributed to the filling factor $f$, then $f\sim 4.0$ in the quiet Sun region of the streamer belt, and $f\sim 2.5$ in the subpolar region of the CH. As for any probability distribution, $\sigma_{Ne}^2 \equiv \rm{Var}(N_e) = \left<N_e^2\right> - \left<N_e\right>^2 = \left<N_e\right>^2 \, (f-1)$, then $\sigma_{Ne} / \left<N_e\right> = \sqrt{f-1}$. With this interpretation, where $f$ is larger (quiet {Sun} region) the electron density probability distribution has a larger variance.
 
-Secondly, the EUV {emissivity} determined from tomography is proportional to the assumed iron coronal abundance $[\rm{Fe}]$. As a result, the EUV tomography estimate of the average squared electron density scales as $\AvgNE2 \propto 1/[\rm{Fe}]$ \citep{frazin_2009}.
+Secondly, the EUV {emissivity} determined from tomography is proportional to the assumed iron coronal abundance $[\rm{Fe}]$. As a result, the EUV tomography estimate of the average squared electron density scales as $\left<N_e^2\right> \propto 1/[\rm{Fe}]$ \citep{frazin_2009}.
 
 The work here summarized is a first step towards development of a new methodology capable of jointly determining the coronal 3D distribution of the electron density and temperature, as well as the filling factor and iron abundance. The technique, dubbed multi-instrument tomography (MIT) {and currently under development by us}, will involve joint analysis of tomographic products based on data provided by multiple instruments. These include white-light coronagraphs, EUV telescopes, and visible emission line coronagraphs. In particular, MIT will attempt to combine KCOR{, AIA and data from the} (soon to be operative) Upgraded Coronal Multichannel Polarimeter (UCoMP) instrument \citep{landi_2016}.
 

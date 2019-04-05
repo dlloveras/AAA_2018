@@ -1,0 +1,11 @@
+PWD /data1/work/conferences/SOCHIAS-AAA-2018/AAA_2018
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /home/albert/.texlive2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT proceeding.extended.tex
+OUTPUT proceeding.extended.log
+INPUT baaa.cls
+INPUT baaa.cls
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def

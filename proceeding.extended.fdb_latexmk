@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1547070140 "proceeding.extended.tex" "proceeding.extended.pdf" "proceeding.extended" 1547070140
+  "/home/albert/.texlive2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1543111160 789642 82e539a403d605fd3f06050080ab04c1 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty" 1528235896 16004 293e1516e7acda164a88a332c25064b2 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def" 1528235896 13069 f93658d7040fbcb8fbaccdd3bf77503b ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1544722920 33523 3a2c32bd77384f8f4508d61b4be83582 ""
+  "baaa.cls" 1543342355 39093 a3ce2f6e517fa8dd82c52f01b00e2409 ""
+  "proceeding.extended.aux" 1547070140 8 a94a2480d3289e625eea47cd1b285758 ""
+  "proceeding.extended.tex" 1547070139 27128 376143ac8b3493978af2ee345ad439cf ""
+  (generated)
+  "proceeding.extended.log"
+  "proceeding.extended.pdf"

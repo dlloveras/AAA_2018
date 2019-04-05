@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.20)  5 APR 2019 18:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.20)  5 APR 2019 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,14 +981,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks46
 \@floatcapt=\box43
 )
-(./proceeding.extended.aux
-
-LaTeX Warning: Label `fig_maps4' multiply defined.
-
-
-LaTeX Warning: Label `fig_analysis4' multiply defined.
-
-)
+(./proceeding.extended.aux)
 \openout1 = `proceeding.extended.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -1366,83 +1359,79 @@ e_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Hh_l09_kcor_1e-5_bloqueados-Open-regi
 on_N.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 352.
+               Default added (so using `tbp') on input line 351.
 
-<map_Ne_CR2198_DEMT-AIA_H1-L07-09-09_r3D_reduced_1105_Rsun.pdf, id=285, 975.645
+<map_Ne_CR2198_DEMT-AIA_H1-L07-09-09_r3D_reduced_1105_Rsun.pdf, id=284, 975.645
 pt x 487.8225pt>
 File: map_Ne_CR2198_DEMT-AIA_H1-L07-09-09_r3D_reduced_1105_Rsun.pdf Graphic fil
 e (type pdf)
 <use map_Ne_CR2198_DEMT-AIA_H1-L07-09-09_r3D_reduced_1105_Rsun.pdf>
 Package pdftex.def Info: map_Ne_CR2198_DEMT-AIA_H1-L07-09-09_r3D_reduced_1105_R
-sun.pdf  used on input line 354.
+sun.pdf  used on input line 353.
 (pdftex.def)             Requested size: 241.53897pt x 120.76434pt.
 File: map_ne_kcor.pdf Graphic file (type pdf)
 <use map_ne_kcor.pdf>
-Package pdftex.def Info: map_ne_kcor.pdf  used on input line 355.
+Package pdftex.def Info: map_ne_kcor.pdf  used on input line 354.
 (pdftex.def)             Requested size: 241.53897pt x 120.76434pt.
 <comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1_range1105-1195_Rs
-un.pdf, id=288, 867.24pt x 361.35pt>
+un.pdf, id=287, 867.24pt x 361.35pt>
 File: comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1_range1105-11
 95_Rsun.pdf Graphic file (type pdf)
 <use comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1_range1105-119
 5_Rsun.pdf>
 Package pdftex.def Info: comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-r
-egion1_range1105-1195_Rsun.pdf  used on input line 362.
+egion1_range1105-1195_Rsun.pdf  used on input line 361.
 (pdftex.def)             Requested size: 241.53897pt x 100.63696pt.
 <comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N_range1105-1155_Rs
-un.pdf, id=289, 867.24pt x 361.35pt>
+un.pdf, id=288, 867.24pt x 361.35pt>
 File: comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N_range1105-11
 55_Rsun.pdf Graphic file (type pdf)
 <use comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N_range1105-115
 5_Rsun.pdf>
 Package pdftex.def Info: comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-re
-gion_N_range1105-1155_Rsun.pdf  used on input line 363.
+gion_N_range1105-1155_Rsun.pdf  used on input line 362.
 (pdftex.def)             Requested size: 241.53897pt x 100.63696pt.
 <Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1.pdf,
- id=290, 578.16pt x 361.35pt>
+ id=289, 578.16pt x 361.35pt>
 File: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1
 .pdf Graphic file (type pdf)
 <use Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1.
 pdf>
 Package pdftex.def Info: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_1
-3imag-Quiet-region1.pdf  used on input line 364.
+3imag-Quiet-region1.pdf  used on input line 363.
 (pdftex.def)             Requested size: 181.15422pt x 113.21933pt.
 <Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N.pdf,
- id=291, 578.16pt x 361.35pt>
+ id=290, 578.16pt x 361.35pt>
 File: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N
 .pdf Graphic file (type pdf)
 <use Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N.
 pdf>
 Package pdftex.def Info: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_1
-3imag-Open-region_N.pdf  used on input line 366.
+3imag-Open-region_N.pdf  used on input line 365.
 (pdftex.def)             Requested size: 181.15422pt x 113.21933pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
 [7 <./map_Ne_CR2198_DEMT-AIA_H1-L07-09-09_r3D_reduced_1105_Rsun.pdf> <./compari
 son_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-region1_range1105-1195_Rsun.pdf> 
 <./comparison_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Open-region_N_range1105-1155_
 Rsun.pdf> <./Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Quiet-
 region1.pdf> <./Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2198_Lopt_13imag-Ope
 n-region_N.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
  (./proceeding.extended.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
 Package rerunfilecheck Info: File `proceeding.extended.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
  ) 
 Here is how much of TeX's memory you used:
- 18661 strings out of 494923
- 343862 string characters out of 6180742
- 414091 words of memory out of 5000000
- 21580 multiletter control sequences out of 15000+600000
+ 18663 strings out of 494923
+ 343888 string characters out of 6180742
+ 414433 words of memory out of 5000000
+ 21582 multiletter control sequences out of 15000+600000
  20179 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,12n,56p,1074b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1462,7 +1451,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/helvetic/uhvb8a.pfb>
-Output written on proceeding.extended.pdf (7 pages, 2620959 bytes).
+Output written on proceeding.extended.pdf (7 pages, 2620940 bytes).
 PDF statistics:
  393 PDF objects out of 1000 (max. 8388607)
  267 compressed objects within 3 object streams

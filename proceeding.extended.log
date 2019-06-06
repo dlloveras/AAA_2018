@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.5)  5 JUN 2019 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.5)  6 JUN 2019 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1490,14 +1490,14 @@ Package pdftex.def Info: map_x_KCORCR220813imgsbf2ri105ro225_Inst_109_200_120_9
 0_180_dropneg_r3D_l6e-5_1105_Rsun.pdf  used on input line 396.
 (pdftex.def)             Requested size: 241.53897pt x 120.76434pt.
 <comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Quiet-regi
-on_ratio_range1105-1195_Rsun.pdf, id=391, 867.24pt x 361.35pt>
+on2_ratio_range1105-1195_Rsun.pdf, id=391, 867.24pt x 361.35pt>
 File: comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Quiet
--region_ratio_range1105-1195_Rsun.pdf Graphic file (type pdf)
+-region2_ratio_range1105-1195_Rsun.pdf Graphic file (type pdf)
 <use comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Quiet-
-region_ratio_range1105-1195_Rsun.pdf>
+region2_ratio_range1105-1195_Rsun.pdf>
 Package pdftex.def Info: comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kco
-r_6e5_newgrid-Quiet-region_ratio_range1105-1195_Rsun.pdf  used on input line 40
-4.
+r_6e5_newgrid-Quiet-region2_ratio_range1105-1195_Rsun.pdf  used on input line 4
+04.
 (pdftex.def)             Requested size: 241.53897pt x 100.63696pt.
 <comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Open-regio
 n_N_ratio_range1105-1155_Rsun.pdf, id=392, 867.24pt x 361.35pt>
@@ -1510,13 +1510,13 @@ r_6e5_newgrid-Open-region_N_ratio_range1105-1155_Rsun.pdf  used on input line 4
 05.
 (pdftex.def)             Requested size: 241.53897pt x 100.63696pt.
 <Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgr
-id-Quiet-region.pdf, id=393, 578.16pt x 361.35pt>
+id-Quiet-region2.pdf, id=393, 578.16pt x 361.35pt>
 File: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_
-newgrid-Quiet-region.pdf Graphic file (type pdf)
+newgrid-Quiet-region2.pdf Graphic file (type pdf)
 <use Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_n
-ewgrid-Quiet-region.pdf>
+ewgrid-Quiet-region2.pdf>
 Package pdftex.def Info: Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l106
-9_reduced_kcor_6e5_newgrid-Quiet-region.pdf  used on input line 406.
+9_reduced_kcor_6e5_newgrid-Quiet-region2.pdf  used on input line 406.
 (pdftex.def)             Requested size: 181.15422pt x 113.21933pt.
 <Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgr
 id-Open-region_N.pdf, id=394, 578.16pt x 361.35pt>
@@ -1534,11 +1534,11 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
 [9 <./map_Ne_CR2208_l106090_h1_r3D_reduced_1105_Rsun.pdf> <./map_x_KCORCR220813
 imgsbf2ri105ro225_Inst_109_200_120_90_180_dropneg_r3D_l6e-5_1105_Rsun.pdf> <./c
 omparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Quiet-region
-_ratio_range1105-1195_Rsun.pdf> <./comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_r
-educed_kcor_6e5_newgrid-Open-region_N_ratio_range1105-1155_Rsun.pdf> <./Average
-_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Quiet
--region.pdf> <./Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced
-_kcor_6e5_newgrid-Open-region_N.pdf>]
+2_ratio_range1105-1195_Rsun.pdf> <./comparison_KCOR-Tom_vs_DEMT_CR2208_h_l1069_
+reduced_kcor_6e5_newgrid-Open-region_N_ratio_range1105-1155_Rsun.pdf> <./Averag
+e_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduced_kcor_6e5_newgrid-Quie
+t-region2.pdf> <./Average_Radial_Profiles_KCOR-Tom_vs_DEMT_CR2208_h_l1069_reduc
+ed_kcor_6e5_newgrid-Open-region_N.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
  (./proceeding.extended.aux
 LaTeX Info: Redefining \. on input line 31.
@@ -1550,11 +1550,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `proceeding.extended.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 416.
  ) 
 Here is how much of TeX's memory you used:
  19152 strings out of 494747
- 355811 string characters out of 6176208
+ 355821 string characters out of 6176208
  422487 words of memory out of 5000000
  22072 multiletter control sequences out of 15000+600000
  20179 words of font info for 63 fonts, out of 8000000 for 9000
@@ -1576,7 +1580,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/helvetic/uhvb8a.pfb>
-Output written on proceeding.extended.pdf (9 pages, 3202933 bytes).
+Output written on proceeding.extended.pdf (9 pages, 3204241 bytes).
 PDF statistics:
  505 PDF objects out of 1000 (max. 8388607)
  334 compressed objects within 4 object streams
